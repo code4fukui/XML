@@ -1,4 +1,4 @@
-# XML (xml2json)
+# XML (xml2json, json2xml)
  
 ```JavaScript
 import { XML } from "https://js.sabae.cc/XML.js";
