@@ -1,4 +1,4 @@
-import { DOMParser } from "https://js.sabae.cc/DOMParser.js";
+import { DOMParser } from "https://code4fukui.github.io/xmldom-es/xmldom.js";
 
 const parseNode = (xmlNode, result) => {
   if (xmlNode.nodeName == null) {
