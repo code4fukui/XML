@@ -9,6 +9,9 @@ const parseNode = (xmlNode, result) => {
       result["#text"] = v;
     }
     return;
+  } else if (xmlNode.childNodes == undefined) {
+    result["#text"] = xmlNode.data;
+    return;
   }
   const json = {};
   const existing = result[xmlNode.nodeName];
