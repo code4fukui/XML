@@ -1,17 +1,15 @@
 # XML (xml2json, json2xml)
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+XMLとJSONを相互に変換します。
 
-Convert XML to JSON and back.
+## 機能
+- XMLをJSONに変換
+- JSONをXMLに変換
 
-## Features
-- Convert XML to JSON
-- Convert JSON to XML
-
-## Requirements
+## 要件
 - [DOMParser](https://github.com/code4fukui/xmldom-es/)
 
-## Usage
+## 使い方
 ```JavaScript
 import { XML } from "https://js.sabae.cc/XML.js";
 
@@ -22,5 +20,5 @@ const xml = XML.stringify({ xml: { att: "abc", tag: { "#text": "text" } } });
 console.log(xml);
 ```
 
-## License
-MIT License — see [LICENSE](LICENSE).
+## ライセンス
+MIT License — 詳細は [LICENSE](LICENSE) を参照してください。
